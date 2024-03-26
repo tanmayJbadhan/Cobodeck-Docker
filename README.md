@@ -11,7 +11,8 @@
 - ```cmd
   docker run -it --rm -p 6080:80 replace_with_containerid
 - In the browser go to http://localhost:6080/ and you will see an entire linux GUI running inside the browser
-- 
+- ![Alt text](Screenshot from 2024-03-26 09-24-45.png)
+
     
 ## How to Use
 
