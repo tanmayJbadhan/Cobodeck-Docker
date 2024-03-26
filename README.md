@@ -22,6 +22,10 @@
 - After succesfully building the workspace using catkin built, source the devel setup in the browser
 - ![Screenshot](Screenshot%20from%202024-03-26%2009-37-57.png)
 - Now you should be able to see the simulation running
+- ![Screenshot](Screenshot%20from%202024-03-26%2009-44-58.png)
+- ![Screenshot](Screenshot%20from%202024-03-26%2009-45-11.png)
+- ![Screenshot](Screenshot%20from%202024-03-26%2009-45-25.png)
+
     
 ## Alternatively you can use the .tar file for the image to setup the simulation right away
 
