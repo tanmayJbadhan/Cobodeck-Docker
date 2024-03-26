@@ -1,8 +1,6 @@
 # Steps the built the entire container again
 
 
-## Features
-
 - Clone the repository
 - Built the docker image
 - ```cmd
@@ -22,16 +20,17 @@
   docker run -it --rm -p 6080:80 -v 'replace with volme location' 'replace with container id'
 - There are some dependency issues while builting the workspace but they can be solved by clonning the repos and editing the cmake file in some packages.
 - After succesfully building the workspace using catkin built, source the devel setup in the browser
-- 
+- ![Screenshot](Screenshot%20from%202024-03-26%2009-37-57.png)
+- Now you should be able to see the simulation running
     
-## How to Use
+## Alternatively you can use the .tar file for the image to setup the simulation right away
 
-1. First, do this.
-2. Then, do that.
-3. Finally, you're all set!
+- Download the .tar file form the link https://drive.google.com/file/d/1jEWj-kCp196qbIYPZMZF_PEvaZU0MyTq/view?usp=drive_link
+- Import the docker image
+- ```cmd
+  docker import /path/to/file.tar your_image_name:tag
+- Run docker images if the container has succesfully been imported, if you see the container run it using the following command
+- ```cmd
+    docker run -it --rm -p 6080:80 -v 'replace with volme location' 'replace with container id'
 
-## Contributors
 
-- John Doe
-- Jane Smith
-- Alex Johnson
